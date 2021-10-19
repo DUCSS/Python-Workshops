@@ -29,7 +29,7 @@
         num2 = 20
         print(func(num1, num2)) is transferred into print(func(10, 20)) and finally into print(30)
         
-        We may have multiple return statements in the program, where each return statement 
+        We may have multiple return statements in the function, where each return statement 
         corresponds to a particular case in the conditional execution, see examples in week 2.
         
         
