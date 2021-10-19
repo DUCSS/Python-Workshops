@@ -47,6 +47,9 @@ def main():
     area = find_area(width, height)
     perimeter = find_perimeter(width, height)
 
+    # this is called f-string, they are just like usual strings but you can substitute variable values in them, if 
+    # you wrap the variable name into {}, for example f"My age is {age}" will be equal to "My age is 20", if variable age
+    # is equal to 20 or "My age is 25", if variable age is equal to 25.
     print(f"The area of the rectangle with sides {width} and {height} is {area}")
     print(f"The perimeter of the rectangle with sides {width} and {height} is {perimeter}")
 
