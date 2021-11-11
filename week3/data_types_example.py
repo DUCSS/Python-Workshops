@@ -1,6 +1,3 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
-
 
 ## lists = collections of the items of the same type 
 
@@ -11,9 +8,9 @@ a = (100, 1, 2, 3)
 
 b = ("Pavel", 1234)
 
-# print(f"Name is {b[0]} and student id is {b[1]}")
+print(f"Name is {b[0]} and student id is {b[1]}")
 
-## dictionaries = collections of items which can be accessed by a key 
+## dictionaries = collections of items which can be accessed by a key (a set of key - value pairs)
 
 a = {"Pavel": 1234, "Vitaly": 1235}
 
@@ -24,8 +21,8 @@ a["Bob"] = 9999
 
 print(a["Bob"])
 
-#for name, id in a.items():
-    #print(f"{name}'s student is {id}")
+for name, id in a.items():
+    print(f"{name}'s student is {id}")
     
 for name in a:
     print(name)
