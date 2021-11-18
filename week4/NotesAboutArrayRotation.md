@@ -1,6 +1,6 @@
 -1 = a * K + r, r>=0 r<K
 
--1 = -1*K + K - 1, where K-1 is the remainder, which has to be positive by definition
+-1 = -1*K + K - 1, where K-1 is the remainder, which has to be positive or 0 by definition
 
 (i - rotation) = a * N + r 
 
